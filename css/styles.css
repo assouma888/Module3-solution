@@ -1,0 +1,102 @@
+ /********** Base styles **********/
+ /* header */
+.navbar-brand h2{
+ margin-top: -10px; 
+}
+#nav-list {
+ text-align: center;
+  color: #808080;
+
+}
+#nav-list a:hover {
+ background:#C0C0C0;
+}
+
+/* body */
+
+body {
+  /*border-collapse: separate;  */
+
+}
+
+h1 {
+ font-weight: bold;
+
+}
+h3 {
+
+color:black; 
+font-weight: bold;
+}
+p > a {
+  font-family: Helvetica;
+  color:#FFFFFF;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#Chicken {
+  
+  font-family: Helvetica;
+  color: black;
+  text-align: justify;
+  font-weight: bold;
+  border: 2px solid #3F0C1F;
+  background-color:#808080;
+  height :50px
+  width:50px;
+ 
+  
+}
+#Beef {
+ 
+  font-family: Helvetica;
+  color: black;
+  text-align: justify;
+  font-weight: bold;
+  border: 2px solid #3F0C1F;
+  background-color:#808080;
+  height :50px
+  width:50px;
+ 
+  
+}
+#Sushi {
+  
+  font-family: Helvetica;
+  color: black;
+  text-align: justify;
+  font-weight: bold;
+  border: 2px solid #3F0C1F;
+  background-color:#808080;
+  height :50px
+  width:50px;
+
+}
+
+
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ .row{
+    margin-bottom:30px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ .row{
+    margin-bottom:30px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+ .row{
+    margin-bottom:30px;
+  }
+   }
+  }
